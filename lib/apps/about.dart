@@ -1,11 +1,7 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:intl/intl.dart';
 import 'package:mac_dt/data/analytics.dart';
 import 'package:mac_dt/system/componentsOnOff.dart';
-import 'package:mac_dt/theme/theme.dart';
 import 'package:provider/provider.dart';
 import '../../system/openApps.dart';
 import '../../sizes.dart';

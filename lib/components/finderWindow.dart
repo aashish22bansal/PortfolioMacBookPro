@@ -1,11 +1,9 @@
 import 'dart:ui';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import 'package:mac_dt/system/componentsOnOff.dart';
-import 'package:mac_dt/theme/theme.dart';
 import 'package:provider/provider.dart';
 import '../apps/about.dart';
 import '../apps/calendar.dart';
@@ -735,7 +733,7 @@ class _FinderState extends State<Finder> {
                           style: TextStyle(
                             fontWeight: Theme.of(context)
                                 .textTheme
-                                .headline1!
+                                .displayLarge!
                                 .fontWeight,
                             fontFamily: "SF",
                             color: Theme.of(context).cardColor.withOpacity(.38),
@@ -866,7 +864,7 @@ class _FinderState extends State<Finder> {
                                     size: 15,
                                     weight: Theme.of(context)
                                         .textTheme
-                                        .headline1!
+                                        .displayLarge!
                                         .fontWeight,
                                     color: Theme.of(context)
                                         .cardColor

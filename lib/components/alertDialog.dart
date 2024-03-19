@@ -4,13 +4,10 @@ import 'dart:html';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:provider/provider.dart';
 
 import '../sizes.dart';
 import 'dart:ui' as ui;
 
-import '../widgets.dart';
 
 class MacOSAlertDialog extends StatelessWidget {
   MacOSAlertDialog({Key? key,   }) : super(key: key);
